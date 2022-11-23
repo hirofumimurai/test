@@ -2,4 +2,4 @@
 
 import sys
 
-[ print(i) for i in sys.stdin ]
+[ print(i.rstrip()) for i in sys.stdin ]
